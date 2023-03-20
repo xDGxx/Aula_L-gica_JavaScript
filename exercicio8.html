@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let num1 = parseFloat (prompt("Digite o primeiro numero"))
+        let num2 = parseFloat (prompt("Digite o segundo numero"))
+        let num3 = parseFloat (prompt("Digite o terceiro numero"))
+        let num4 = parseFloat (prompt("Digite o quarto numero"))
+        media = 0.0;
+
+        if(num1 > 0.0 && num1 < 10.0) {
+            media = num1;
+        } else {
+            alert("Os números precisam ser acima de 0 é menor que 10");
+        }
+
+        if(num2 > 0.0 && num2 < 10.0) {
+            media = media + num2;
+        } else {
+            alert("Os números precisam ser acima de 0 é menor que 10");
+        }
+
+        if(num3 > 0.0 && num3 < 10.0) {
+            media = media + num3;
+        } else {
+            alert("Os números precisam ser acima de 0 é menor que 10");
+        }
+
+        if(num4 > 0.0 && num4 < 10.0) {
+            media = media + num4;
+        } else {
+            alert("Os números precisam ser acima de 0 é menor que 10");
+        }
+
+        document.write("A media das notas é: " + media / 4);
+        
+
+    </script>
+</body>
+</html>
